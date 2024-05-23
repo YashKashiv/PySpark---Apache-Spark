@@ -1,0 +1,30 @@
+Key Concepts:-
+
+VectorAssembler: Combines multiple columns into a single vector column.
+
+Training Data: Data used to train the machine learning model.
+
+Prediction: Using the trained model to predict the target variable on new data.
+
+Evaluation Metrics: Metrics to evaluate the performance of the model, e.g., MSE, RMSE.
+
+1. Data Preparation
+You have a dataset in a tabular format with columns: Name, Age, Experience, and Salary.
+
+2. Schema:
+The schema of the DataFrame shows the data types of each column.
+
+3. VectorAssembler:
+VectorAssembler is a feature transformer that combines a given list of columns into a single vector column. This is often used in machine learning pipelines to combine features into a single vector column for training models.
+
+4. Data Selection for Model Training:
+You select the Independent Features and Salary columns for model training.
+
+5. Model Training:
+You likely trained a machine learning model (e.g., Linear Regression) using Independent Features to predict Salary.
+
+6. Model Prediction:
+The model is used to make predictions on the test data.
+
+7. Evaluation:
+The model's performance is evaluated using metrics like Mean Squared Error (MSE) and Root Mean Squared Error (RMSE).

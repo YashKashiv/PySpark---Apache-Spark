@@ -1,0 +1,11 @@
+terminal code:-
+-->pip install pyspark
+
+Download Java jdk and install.
+Copy the folder folder path where your Java is installed.
+In your python environment, add below code (and replace the copied Java folder path within the quotations in the first line only)
+allow the firewall access also
+
+basic line code:-
+-->os.environ["JAVA_HOME"] = "C:/Program Files/Java/jdk-22"
+-->os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]

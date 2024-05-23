@@ -1,0 +1,35 @@
+OPEN IN FULL SCREEN WINDOW
+
+PySpark provides a powerful and efficient way to handle big data processing and analytics, leveraging the scalability and speed of Apache Spark with the simplicity and flexibility of Python.
+
+Spark is a system designed for working, analyzing and modelling with immense amount of data (Big Data) in many computers (server) at the same time. Spark allows to run computations in parallel instead of sequentially it allows to divide one incredibly large task into many smaller tasks and run each task on different machine which helps to accomplish the goal in reasonable time that would not be possible on a single machine to work on big data.
+
+Distributed Computing: when you distribute a task into several smaller task that run at the same time this is what PySpark allows to do with many machines
+but it can also be done on a single machine with several threads like - a cluster a network of machines that can take on tasks from a user interact with one another and return results it provides the resources for computations
+
+RDD Resilient Distributed Dataset: dataset used by PySpark which is immutable distributed collection of data it has no data schema which means it has no defined data types and not tabular like other spark dataframes.
+
+DataFrame: A higher-level abstraction compared to RDD, similar to a table in a relational database. It allows for easier manipulation and querying of structured data.
+HDFS (Hadoop Distributed File System)
+
+SparkSession: The entry point to programming with Spark. It allows you to create DataFrame and RDD objects.
+
+
+                                             ***Spark Architecture***
+
+                  Driver Program    ---->      Cluster Manager        ---->          Worker Node
+                  ( SparkContext )                                            ( Executor(task | task) Chahe )
+
+Use Cases of PySpark
+
+Data Processing and ETL:
+PySpark is used to process large-scale data efficiently. It can handle tasks like reading/writing to databases, data cleaning, and transformation.
+
+Real-time Stream Processing:
+With Spark Streaming, PySpark can be used to process real-time data streams, making it suitable for applications like log analysis, fraud detection, and real-time analytics.
+
+Machine Learning:
+PySpark’s MLlib provides scalable machine learning algorithms that can be used to build predictive models on large datasets.
+
+Data Analytics:
+PySpark's powerful querying capabilities allow for complex data analysis, making it a tool of choice for data scientists and analysts.
